@@ -14,10 +14,12 @@ div>h3{color: #FFE45E;padding: 10px;}
 
 section>h2{margin: 5px;}
 
+/*para el p inmediatemente despues del h2*/
 h2+p{color: #CAE9FF;}
 
 h3~ ul{color: #E7ECEF;margin: 5px;}
 
+/*para todos los pque sean hermanos posteriores del h2*/
 h2~p {padding: 5px;}
 
 .publico{width: 60%;padding: 10px;margin: 10px;}
